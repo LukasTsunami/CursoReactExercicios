@@ -54,10 +54,6 @@ const BarraDeNavegacao = () => {
               <LinkDoMenu paraOnde="exercicio4" />
               <LinkDoMenu paraOnde="exercicio5" />
               <LinkDoMenu paraOnde="exercicio6" />
-              <LinkDoMenu paraOnde="exercicio7" />
-              <LinkDoMenu paraOnde="exercicio8" />
-              <LinkDoMenu paraOnde="exercicio9" />
-              <LinkDoMenu paraOnde="exercicio10" />
             </NavDropdown>
             <QualPaginaEsta />
           </Nav>

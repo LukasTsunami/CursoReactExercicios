@@ -4,7 +4,3 @@ export { Exercicio3 } from "./Exercicio3/Exercicio3";
 export { Exercicio4 } from "./Exercicio4/Exercicio4";
 export { Exercicio5 } from "./Exercicio5/Exercicio5";
 export { Exercicio6 } from "./Exercicio6/Exercicio6";
-export { Exercicio7 } from "./Exercicio7/Exercicio7";
-export { Exercicio8 } from "./Exercicio8/Exercicio8";
-export { Exercicio9 } from "./Exercicio9/Exercicio9";
-export { Exercicio10 } from "./Exercicio10/Exercicio10";

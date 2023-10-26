@@ -14,11 +14,7 @@ import {
   Exercicio3,
   Exercicio4,
   Exercicio5,
-  Exercicio6,
-  Exercicio7,
-  Exercicio8,
-  Exercicio9,
-  Exercicio10
+  Exercicio6
 } from './pages/exercicios/Exercicios';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
@@ -34,10 +30,6 @@ root.render(
           <Route path="/exercicio4" element={<Exercicio4 />} />
           <Route path="/exercicio5" element={<Exercicio5 />} />
           <Route path="/exercicio6" element={<Exercicio6 />} />
-          <Route path="/exercicio7" element={<Exercicio7 />} />
-          <Route path="/exercicio8" element={<Exercicio8 />} />
-          <Route path="/exercicio9" element={<Exercicio9 />} />
-          <Route path="/exercicio10" element={<Exercicio10 />} />
         </Routes>
       </Layout>
     </BrowserRouter>
