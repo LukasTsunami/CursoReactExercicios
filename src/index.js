@@ -1,16 +1,45 @@
+import "bootstrap-icons/font/bootstrap-icons.css";
+import 'bootstrap/dist/css/bootstrap.min.css';
+
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import App from './App';
-import reportWebVitals from './reportWebVitals';
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+
+import Layout from './components/Layout';
+import PaginaInicial from './pages/PaginaInicial';
+
+import {
+  Exercicio1,
+  Exercicio2,
+  Exercicio3,
+  Exercicio4,
+  Exercicio5,
+  Exercicio6,
+  Exercicio7,
+  Exercicio8,
+  Exercicio9,
+  Exercicio10
+} from './pages/exercicios/Exercicios';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <App />
+    <BrowserRouter>
+      <Layout>
+        <Routes>
+          <Route path="/" element={<PaginaInicial />} />
+          <Route path="/exercicio1" element={<Exercicio1 />} />
+          <Route path="/exercicio2" element={<Exercicio2 />} />
+          <Route path="/exercicio3" element={<Exercicio3 />} />
+          <Route path="/exercicio4" element={<Exercicio4 />} />
+          <Route path="/exercicio5" element={<Exercicio5 />} />
+          <Route path="/exercicio6" element={<Exercicio6 />} />
+          <Route path="/exercicio7" element={<Exercicio7 />} />
+          <Route path="/exercicio8" element={<Exercicio8 />} />
+          <Route path="/exercicio9" element={<Exercicio9 />} />
+          <Route path="/exercicio10" element={<Exercicio10 />} />
+        </Routes>
+      </Layout>
+    </BrowserRouter>
   </React.StrictMode>
 );
-
-// If you want to start measuring performance in your app, pass a function
-// to log results (for example: reportWebVitals(console.log))
-// or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
-reportWebVitals();
