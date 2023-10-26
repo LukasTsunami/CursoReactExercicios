@@ -45,6 +45,7 @@ const BarraDeNavegacao = () => {
         <Navbar.Brand as={Link} to="/">
           <i className="bi bi-house"></i>
         </Navbar.Brand>
+        <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="me-auto">
             <NavDropdown title={`Exercícios`} id="basic-nav-dropdown">
